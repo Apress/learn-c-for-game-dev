@@ -1,0 +1,24 @@
+﻿Build started 8/02/2014 2:17:44 PM.
+     1>Project "C:\Users\Bruce\SkyDrive\Documents\Apress\Learn C++ Game Development\Projects\Chapter16-Set\Chapter16-Set\Chapter16-Set.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Chapter16-Set.cpp"
+         Chapter16-Set.cpp
+     1>c:\users\bruce\skydrive\documents\apress\learn c++ game development\projects\chapter16-set\chapter16-set\chapter16-set.cpp(102): error C2784: 'std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<int>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::emplace(_Valty &&...)' : could not deduce template argument for '_Valty &&' from 'initializer-list'
+                 with
+                 [
+                     _Kty=int
+         ,            _Pr=std::less<int>
+         ,            _Alloc=std::allocator<int>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtree(1174) : see declaration of 'std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::emplace'
+                 with
+                 [
+                     _Kty=int
+         ,            _Pr=std::less<int>
+         ,            _Alloc=std::allocator<int>
+                 ]
+     1>Done Building Project "C:\Users\Bruce\SkyDrive\Documents\Apress\Learn C++ Game Development\Projects\Chapter16-Set\Chapter16-Set\Chapter16-Set.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.39
